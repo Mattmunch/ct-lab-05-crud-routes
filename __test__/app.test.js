@@ -37,7 +37,7 @@ describe('application routes', () => {
   });
   it('has a /car PUT route', () => {
     return request(app)
-      .put('/car')
+      .put('/car/:_id')
       .send({
         name: 'Tesla Model X',
         horsepower:600
@@ -46,8 +46,8 @@ describe('application routes', () => {
         expect(res.body).toEqual({
           __v: expect.any(Number),
           _id: expect.any(String),
-          name: 'Tesla Cyber Truck',
-          horsepower:500
+          name: 'Tesla Model X',
+          horsepower:600
         });
       });
   });

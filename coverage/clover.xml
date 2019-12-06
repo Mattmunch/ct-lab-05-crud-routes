@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575675723499" clover="3.2.0">
-  <project timestamp="1575675723499" name="All files">
-    <metrics statements="27" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6" elements="36" coveredelements="28" complexity="0" loc="27" ncloc="27" packages="3" files="3" classes="3"/>
+<coverage generated="1575676332786" clover="3.2.0">
+  <project timestamp="1575676332786" name="All files">
+    <metrics statements="27" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7" elements="36" coveredelements="32" complexity="0" loc="27" ncloc="27" packages="3" files="3" classes="3"/>
     <package name="lib">
-      <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
       <file name="app.js" path="/Users/matt/alchemy/career-track/ct-lab-05-crud-routes/lib/app.js">
-        <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -18,9 +18,9 @@
         <line num="18" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
       </file>
